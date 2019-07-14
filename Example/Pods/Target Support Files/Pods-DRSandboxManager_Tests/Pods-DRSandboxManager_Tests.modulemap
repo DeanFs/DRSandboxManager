@@ -1,0 +1,6 @@
+framework module Pods_DRSandboxManager_Tests {
+  umbrella header "Pods-DRSandboxManager_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
