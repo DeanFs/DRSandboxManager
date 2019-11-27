@@ -369,7 +369,7 @@
     [self getDirectoryInDocumentWithName:dirPath doneBlock:^(BOOL success, NSError *error, NSString *dirPath) {
         if (success) {
             NSString *filePath = [dirPath stringByAppendingPathComponent:[path lastPathComponent]];
-            NSData *imageData = UIImageJPEGRepresentation(image, 1.0);
+            NSData *imageData = UIImagePNGRepresentation(image);
             BOOL isSuccess = [fileManager createFileAtPath:filePath contents:imageData attributes:nil];
             if (isSuccess) {
                 if (saveDoneBlock != nil) {
