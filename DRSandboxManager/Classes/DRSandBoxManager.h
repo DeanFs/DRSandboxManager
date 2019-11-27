@@ -8,8 +8,6 @@
 #import <Foundation/Foundation.h>
 #import <Photos/Photos.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface DRSandBoxManager : NSObject
 
 #pragma mark - 磁盘信息获取
@@ -131,5 +129,3 @@ NS_ASSUME_NONNULL_BEGIN
               saveDoneBlock:(void(^)(BOOL success, NSError *error))saveDoneBlock;
 
 @end
-
-NS_ASSUME_NONNULL_END
