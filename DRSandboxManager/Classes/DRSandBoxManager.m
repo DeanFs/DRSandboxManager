@@ -294,10 +294,7 @@
         if (assetCollection) { // 如果存在就使用当前的相册创建相册请求
             collectionRequest = [PHAssetCollectionChangeRequest changeRequestForAssetCollection:assetCollection];
         } else { // 如果不存在, 就创建一个新的相册请求
-            NSDateFormatter *format = [[NSDateFormatter alloc] init];
-            [format setDateFormat:@"yyyyMMddHHmmss"];
-            NSString *imageTitle = [NSString stringWithFormat:@"SGX_%@", [format stringFromDate:[NSDate date]]];
-            collectionRequest = [PHAssetCollectionChangeRequest creationRequestForAssetCollectionWithTitle:imageTitle];
+            collectionRequest = [PHAssetCollectionChangeRequest creationRequestForAssetCollectionWithTitle:@"时光序"];
         }
         
         // 2.4 根据传入的相片, 创建相片变动请求
