@@ -116,7 +116,7 @@
  @param image 指定要保存的图片，UIImage，NSData，NSString(图片路径)，NSUrl(图片路径)
  @param saveDoneBlock 保存完成回调
  */
-+ (void)saveToSystemAlbumWithImage:(UIImage *)image
++ (void)saveToSystemAlbumWithImage:(id)image
                      saveDoneBlock:(void(^)(BOOL success, NSError *error))saveDoneBlock;
 
 /**
