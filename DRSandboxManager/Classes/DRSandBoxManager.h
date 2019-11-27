@@ -115,10 +115,19 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  保存指定照片到相册
  
- @param image 指定要保存的图片
+ @param image 指定要保存的图片，UIImage，NSData，NSString(图片路径)，NSUrl(图片路径)
  @param saveDoneBlock 保存完成回调
  */
 + (void)saveToDiskWithImage:(UIImage *)image
+              saveDoneBlock:(void(^)(BOOL success, NSError *error))saveDoneBlock;
+
+/**
+ 保存指定视频到相册
+ 
+ @param video 指定要保存的视频路径，NSSting 或者 NSUrl 均可
+ @param saveDoneBlock 保存完成回调
+ */
++ (void)saveToDiskWithVideo:(id)video
               saveDoneBlock:(void(^)(BOOL success, NSError *error))saveDoneBlock;
 
 @end

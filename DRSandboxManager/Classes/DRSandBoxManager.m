@@ -223,15 +223,36 @@
 }
 
 
-#pragma mark - 保存图片到手机相册
+#pragma mark - 保存图片/视频到手机相册
 /**
  保存指定照片到相册
  
- @param image 指定要保存的图片
+ @param image 指定要保存的图片，UIImage，NSData，NSString(图片路径)，NSUrl(图片路径)
  @param saveDoneBlock 保存完成回调
  */
 + (void)saveToDiskWithImage:(UIImage *)image
               saveDoneBlock:(void(^)(BOOL success, NSError *error))saveDoneBlock {
+    [self saveToDiskWithObj:image
+                    isVideo:NO
+              saveDoneBlock:saveDoneBlock];
+}
+
+/**
+ 保存指定视频到相册
+ 
+ @param video 指定要保存的视频路径，NSSting 或者 NSUrl 均可
+ @param saveDoneBlock 保存完成回调
+ */
++ (void)saveToDiskWithVideo:(id)video
+                  saveDoneBlock:(void(^)(BOOL success, NSError *error))saveDoneBlock {
+    [self saveToDiskWithObj:video
+                    isVideo:YES
+              saveDoneBlock:saveDoneBlock];
+}
+
++ (void)saveToDiskWithObj:(id)obj
+                  isVideo:(BOOL)isVideo
+            saveDoneBlock:(void(^)(BOOL success, NSError *error))saveDoneBlock {
     // 1. 获取相片库对象
     PHPhotoLibrary *lib = [PHPhotoLibrary sharedPhotoLibrary];
     // 2. 调用changeBlock
@@ -246,11 +267,47 @@
         if (assetCollection) { // 如果存在就使用当前的相册创建相册请求
             collectionRequest = [PHAssetCollectionChangeRequest changeRequestForAssetCollection:assetCollection];
         } else { // 如果不存在, 就创建一个新的相册请求
-            collectionRequest = [PHAssetCollectionChangeRequest creationRequestForAssetCollectionWithTitle:@"时光序"];
+            NSDateFormatter *format = [[NSDateFormatter alloc] init];
+            [format setDateFormat:@"yyyyMMddHHmmss"];
+            NSString *imageTitle = [NSString stringWithFormat:@"SGX_%@", [format stringFromDate:[NSDate date]]];
+            collectionRequest = [PHAssetCollectionChangeRequest creationRequestForAssetCollectionWithTitle:imageTitle];
         }
         
         // 2.4 根据传入的相片, 创建相片变动请求
-        PHAssetChangeRequest *assetRequest = [PHAssetChangeRequest creationRequestForAssetFromImage:image];
+        PHAssetChangeRequest *assetRequest;
+        if (!isVideo) {
+            if ([obj isKindOfClass:[UIImage class]]) {
+                assetRequest = [PHAssetChangeRequest creationRequestForAssetFromImage:(UIImage *)obj];
+            } else if ([obj isKindOfClass:[NSData class]]) {
+                UIImage *image = [[UIImage alloc] initWithData:(NSData *)obj];
+                if (image == nil) {
+                    return;
+                }
+                assetRequest = [PHAssetChangeRequest creationRequestForAssetFromImage:image];
+            } else if([obj isKindOfClass:[NSString class]]) {
+                NSURL *url = [NSURL fileURLWithPath:(NSString *)obj];
+                if (url == nil) {
+                    return;
+                }
+                assetRequest = [PHAssetChangeRequest creationRequestForAssetFromImageAtFileURL:url];
+            } else if([obj isKindOfClass:[NSURL class]]) {
+                assetRequest = [PHAssetChangeRequest creationRequestForAssetFromImageAtFileURL:(NSURL *)obj];
+            } else {
+                return;
+            }
+        } else {
+            if ([obj isKindOfClass:[NSString class]]) {
+                NSURL *url = [NSURL fileURLWithPath:(NSString *)obj];
+                if (url == nil) {
+                    return;
+                }
+                assetRequest = [PHAssetChangeRequest creationRequestForAssetFromVideoAtFileURL:url];
+            } else if ([obj isKindOfClass:[NSURL class]]) {
+                assetRequest = [PHAssetChangeRequest creationRequestForAssetFromVideoAtFileURL:(NSURL *)obj];
+            } else {
+                return;
+            }
+        }
         
         // 2.4 创建一个占位对象
         PHObjectPlaceholder *placeholder = [assetRequest placeholderForCreatedAsset];

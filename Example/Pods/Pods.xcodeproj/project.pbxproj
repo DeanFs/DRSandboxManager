@@ -7,40 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		025998BCC7F9CDAEFE85E06A42771714 /* Pods-DRSandboxManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10247F35ACDB5014202E8D90F79B2F7C /* Pods-DRSandboxManager_Tests-dummy.m */; };
-		16C1785A8D035D28D30284024E81B7FD /* DRSandBoxManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF21D15D3BB5745FD0E28BB61590E8D0 /* DRSandBoxManager.m */; };
-		19DC7B6B453D0205B0404C29DFC30887 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		20F63E2437AD2455CAA1054CFDB7788C /* DRSandboxManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC86F298CFD513A34A78C84CC586902 /* DRSandboxManager-dummy.m */; };
-		2D90984002A8F96FC54456358791B117 /* DRSandBoxManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 553FB70F9372C8C53F4F683F89D11F6A /* DRSandBoxManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D0EBB5A508CEA321261824026ECC61A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		7D0FA2BF97D9180BA53B1F3E0F4D08D4 /* Pods-DRSandboxManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4B44A8B56CB7813F4A43A013468643F /* Pods-DRSandboxManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9221A35ABE06BF54E7FC877D7A9F189F /* Pods-DRSandboxManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 079DBC8882FA9EF88662DEBE9537F3F0 /* Pods-DRSandboxManager_Example-dummy.m */; };
-		994F96CEBFCAE113A5C42A5347A30B75 /* Pods-DRSandboxManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94E733D8947B25B961A79F2DF0C703D5 /* Pods-DRSandboxManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE400A277D32FD4317FC61AAF3D55748 /* DRSandboxManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E65D0C11B02CE3E4AEE88C0BE9670D73 /* DRSandboxManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F40670D3D4723ABE05F4667E2A8A33BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3DAEEA8B8D685B18E7FCB01C1B0427A4 /* DRSandboxManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E65D0C11B02CE3E4AEE88C0BE9670D73 /* DRSandboxManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D5ACB52021745930AD38953E848926E /* Pods-DRSandboxManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4B44A8B56CB7813F4A43A013468643F /* Pods-DRSandboxManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E483E3150E03949FF2D3C04B8C94BE8 /* DRSandboxManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC86F298CFD513A34A78C84CC586902 /* DRSandboxManager-dummy.m */; };
+		62FC06317B0B5670AA90C5E5C2ABB947 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6C0CAA171BADCA4F8DB1F59685867E54 /* Pods-DRSandboxManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94E733D8947B25B961A79F2DF0C703D5 /* Pods-DRSandboxManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71B0BC76E47B51ACD6AB7D9B80F2C7A1 /* Pods-DRSandboxManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 079DBC8882FA9EF88662DEBE9537F3F0 /* Pods-DRSandboxManager_Example-dummy.m */; };
+		A12E5D71F44C12B7031392AEE1A9C334 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A1C778EB13C57F047D99D4820A1A0127 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C081654F47524386162A5F6DEF2DA739 /* Pods-DRSandboxManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10247F35ACDB5014202E8D90F79B2F7C /* Pods-DRSandboxManager_Tests-dummy.m */; };
+		D91C1328861DBF379EA10BA742FC3242 /* DRSandBoxManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF21D15D3BB5745FD0E28BB61590E8D0 /* DRSandBoxManager.m */; };
+		E68BE86ACABC56C334D95CD265B9625A /* DRSandBoxManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 553FB70F9372C8C53F4F683F89D11F6A /* DRSandBoxManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C03DD92E49D8AAB1D9080D3BCA78A48E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 03B824650462105216F7E18C550AE561;
-			remoteInfo = "Pods-DRSandboxManager_Example";
-		};
-		D89D26EB77C0B35EBD68AB12412612AD /* PBXContainerItemProxy */ = {
+		8992612010B5A747019A291D01B6E1FA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DE9BA31CC8B6BDC6E726CE514EA3BB61;
 			remoteInfo = DRSandboxManager;
 		};
+		D4841A0D9ED6C783C107959AD045EB72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03B824650462105216F7E18C550AE561;
+			remoteInfo = "Pods-DRSandboxManager_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00D67F1A2FC84F8683C22A8484C859CF /* Pods_DRSandboxManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DRSandboxManager_Tests.framework; path = "Pods-DRSandboxManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		079DBC8882FA9EF88662DEBE9537F3F0 /* Pods-DRSandboxManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DRSandboxManager_Example-dummy.m"; sourceTree = "<group>"; };
 		0A7002DBC8AB9430E3E27589D1110939 /* Pods-DRSandboxManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DRSandboxManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0D5EBE55E7BC0E7B735EF0B747409708 /* Pods_DRSandboxManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DRSandboxManager_Tests.framework; path = "Pods-DRSandboxManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10247F35ACDB5014202E8D90F79B2F7C /* Pods-DRSandboxManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DRSandboxManager_Tests-dummy.m"; sourceTree = "<group>"; };
 		1D41895193CB1D5238FF4B9D593599AC /* DRSandboxManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRSandboxManager-prefix.pch"; sourceTree = "<group>"; };
 		2E7717511B8CD78376E24A3D481E1163 /* Pods-DRSandboxManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DRSandboxManager_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -50,8 +50,8 @@
 		35E0162EFC57DE2D00B1058A8251D412 /* Pods-DRSandboxManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DRSandboxManager_Tests.modulemap"; sourceTree = "<group>"; };
 		553FB70F9372C8C53F4F683F89D11F6A /* DRSandBoxManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRSandBoxManager.h; path = DRSandboxManager/Classes/DRSandBoxManager.h; sourceTree = "<group>"; };
 		5CBE9685B8116B055EDAF92ED5A4E2C5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		5EB81A95BDA66CCC17F7EA569F72C925 /* Pods_DRSandboxManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DRSandboxManager_Example.framework; path = "Pods-DRSandboxManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FF0E1F9DAFD0EE27F10F991D752C328 /* Pods-DRSandboxManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DRSandboxManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6FF1080EEEB8B424322EF9000D26A4B5 /* DRSandboxManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DRSandboxManager.framework; path = DRSandboxManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		724B276E74F045BA6A41769C40258EEA /* Pods-DRSandboxManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DRSandboxManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		77D5EE11DFB399B39A8681C9247AEDF6 /* Pods-DRSandboxManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DRSandboxManager_Example-Info.plist"; sourceTree = "<group>"; };
 		794ECC6DC826FD25C3E147993DD19503 /* Pods-DRSandboxManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DRSandboxManager_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -61,8 +61,8 @@
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A027701B7D2F8D1C0FD330F056477813 /* Pods-DRSandboxManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DRSandboxManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A144289610B4E84143C361AE1BBC6D96 /* DRSandboxManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DRSandboxManager-Info.plist"; sourceTree = "<group>"; };
+		AA33CCC90F4D9D29FCE6F91D1F9737B3 /* Pods_DRSandboxManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DRSandboxManager_Example.framework; path = "Pods-DRSandboxManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B129752ABB98EB0A615353D6A6542131 /* DRSandboxManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DRSandboxManager.xcconfig; sourceTree = "<group>"; };
-		BD6A6BBF5353084EE79B9B6A5B85CCB2 /* DRSandboxManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DRSandboxManager.framework; path = DRSandboxManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0AD2767ADE85716DFE830F65E0E4F0D /* Pods-DRSandboxManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DRSandboxManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C8E7600EDC4AAC469E7BB8B965AF7F80 /* Pods-DRSandboxManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DRSandboxManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E4B44A8B56CB7813F4A43A013468643F /* Pods-DRSandboxManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DRSandboxManager_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -74,27 +74,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3CD2EC4821BCFFA32113E9ABDBB2E6ED /* Frameworks */ = {
+		91A47F0CB53E989780845E182F6E191A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19DC7B6B453D0205B0404C29DFC30887 /* Foundation.framework in Frameworks */,
+				A12E5D71F44C12B7031392AEE1A9C334 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4D1B8437B9D6E2D807BA72F0018FF1A7 /* Frameworks */ = {
+		9DBE006113C2B2CA61B0093C0237456D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F40670D3D4723ABE05F4667E2A8A33BD /* Foundation.framework in Frameworks */,
+				62FC06317B0B5670AA90C5E5C2ABB947 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DFA21C07CE6EF15E85A12CC7850FA0D1 /* Frameworks */ = {
+		BD58AE164F3290649B148B0CD54C6D69 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D0EBB5A508CEA321261824026ECC61A /* Foundation.framework in Frameworks */,
+				A1C778EB13C57F047D99D4820A1A0127 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,9 +217,9 @@
 		FBA3010975B68434A22754F139AA115B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BD6A6BBF5353084EE79B9B6A5B85CCB2 /* DRSandboxManager.framework */,
-				5EB81A95BDA66CCC17F7EA569F72C925 /* Pods_DRSandboxManager_Example.framework */,
-				00D67F1A2FC84F8683C22A8484C859CF /* Pods_DRSandboxManager_Tests.framework */,
+				6FF1080EEEB8B424322EF9000D26A4B5 /* DRSandboxManager.framework */,
+				AA33CCC90F4D9D29FCE6F91D1F9737B3 /* Pods_DRSandboxManager_Example.framework */,
+				0D5EBE55E7BC0E7B735EF0B747409708 /* Pods_DRSandboxManager_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -227,28 +227,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		355F8447FE1C6912EF0272A1D593BCE2 /* Headers */ = {
+		05A432D4A05B4BF07F5450C2DD7666FF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE400A277D32FD4317FC61AAF3D55748 /* DRSandboxManager-umbrella.h in Headers */,
-				2D90984002A8F96FC54456358791B117 /* DRSandBoxManager.h in Headers */,
+				3DAEEA8B8D685B18E7FCB01C1B0427A4 /* DRSandboxManager-umbrella.h in Headers */,
+				E68BE86ACABC56C334D95CD265B9625A /* DRSandBoxManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7455494A5A051C8EC6E03E47BA93CF67 /* Headers */ = {
+		BBAE7EBD52FE61207126B9361AAEDD70 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D0FA2BF97D9180BA53B1F3E0F4D08D4 /* Pods-DRSandboxManager_Example-umbrella.h in Headers */,
+				4D5ACB52021745930AD38953E848926E /* Pods-DRSandboxManager_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8F08C3DA40532CA850A9A3645F38921 /* Headers */ = {
+		E1E01A574A94D581E1619DF7DC79FE53 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				994F96CEBFCAE113A5C42A5347A30B75 /* Pods-DRSandboxManager_Tests-umbrella.h in Headers */,
+				6C0CAA171BADCA4F8DB1F59685867E54 /* Pods-DRSandboxManager_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,50 +257,50 @@
 /* Begin PBXNativeTarget section */
 		03B824650462105216F7E18C550AE561 /* Pods-DRSandboxManager_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C7F0B13A7A8A0F6C555895CB168D839 /* Build configuration list for PBXNativeTarget "Pods-DRSandboxManager_Example" */;
+			buildConfigurationList = 4A2223F8245580910B2F07B75B446FCC /* Build configuration list for PBXNativeTarget "Pods-DRSandboxManager_Example" */;
 			buildPhases = (
-				7455494A5A051C8EC6E03E47BA93CF67 /* Headers */,
-				82C7AD7897C0D8110B94447AE6C647D6 /* Sources */,
-				DFA21C07CE6EF15E85A12CC7850FA0D1 /* Frameworks */,
-				EDF8120ACAC8CE787CB37E739B9F2FCC /* Resources */,
+				BBAE7EBD52FE61207126B9361AAEDD70 /* Headers */,
+				0B3B5B119453F4F918B57720B295BAA4 /* Sources */,
+				BD58AE164F3290649B148B0CD54C6D69 /* Frameworks */,
+				BC86FE2B3B6E516754C6AA1223F036F7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8B21DA82CA0FEA06AAD9F5E87B31720B /* PBXTargetDependency */,
+				9D4DC43E281DB9FCE70128CC4A888473 /* PBXTargetDependency */,
 			);
 			name = "Pods-DRSandboxManager_Example";
 			productName = "Pods-DRSandboxManager_Example";
-			productReference = 5EB81A95BDA66CCC17F7EA569F72C925 /* Pods_DRSandboxManager_Example.framework */;
+			productReference = AA33CCC90F4D9D29FCE6F91D1F9737B3 /* Pods_DRSandboxManager_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3067F87EA776E5A7F39AA12C80122648 /* Pods-DRSandboxManager_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73BA126107D65B037C1E6C9C0764B2E9 /* Build configuration list for PBXNativeTarget "Pods-DRSandboxManager_Tests" */;
+			buildConfigurationList = 81616AA379D970093EB27886916B80DD /* Build configuration list for PBXNativeTarget "Pods-DRSandboxManager_Tests" */;
 			buildPhases = (
-				C8F08C3DA40532CA850A9A3645F38921 /* Headers */,
-				22432EDDACAC877C3479EE8942CCECF0 /* Sources */,
-				3CD2EC4821BCFFA32113E9ABDBB2E6ED /* Frameworks */,
-				1E64EB4D8F8A99F35C025F4A90BD83E1 /* Resources */,
+				E1E01A574A94D581E1619DF7DC79FE53 /* Headers */,
+				370728BA9DE4F7A03BC824020F3F7C67 /* Sources */,
+				91A47F0CB53E989780845E182F6E191A /* Frameworks */,
+				42A740DDA477E09B314632A1D53D9827 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				63CE4617B26B2795240CA303FF48E2D8 /* PBXTargetDependency */,
+				AFB0D041E802142DD2A9F09A7AB009DC /* PBXTargetDependency */,
 			);
 			name = "Pods-DRSandboxManager_Tests";
 			productName = "Pods-DRSandboxManager_Tests";
-			productReference = 00D67F1A2FC84F8683C22A8484C859CF /* Pods_DRSandboxManager_Tests.framework */;
+			productReference = 0D5EBE55E7BC0E7B735EF0B747409708 /* Pods_DRSandboxManager_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DE9BA31CC8B6BDC6E726CE514EA3BB61 /* DRSandboxManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 418878A9E2A15A1F2FB2BECCA70AF561 /* Build configuration list for PBXNativeTarget "DRSandboxManager" */;
+			buildConfigurationList = F9BC9E4E9720168021E9D60E7769D2DA /* Build configuration list for PBXNativeTarget "DRSandboxManager" */;
 			buildPhases = (
-				355F8447FE1C6912EF0272A1D593BCE2 /* Headers */,
-				9E6747168E8190F3095D0C6473F7AD74 /* Sources */,
-				4D1B8437B9D6E2D807BA72F0018FF1A7 /* Frameworks */,
-				3A341FC60B820E7F63DDD0CC80D471CA /* Resources */,
+				05A432D4A05B4BF07F5450C2DD7666FF /* Headers */,
+				A00D3C446A7C37B7ACA02074DA1A61E4 /* Sources */,
+				9DBE006113C2B2CA61B0093C0237456D /* Frameworks */,
+				F46F2FF1C37519B335A17B6C0528C515 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -308,7 +308,7 @@
 			);
 			name = DRSandboxManager;
 			productName = DRSandboxManager;
-			productReference = BD6A6BBF5353084EE79B9B6A5B85CCB2 /* DRSandboxManager.framework */;
+			productReference = 6FF1080EEEB8B424322EF9000D26A4B5 /* DRSandboxManager.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -317,8 +317,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -326,6 +326,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = FBA3010975B68434A22754F139AA115B /* Products */;
@@ -340,21 +341,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1E64EB4D8F8A99F35C025F4A90BD83E1 /* Resources */ = {
+		42A740DDA477E09B314632A1D53D9827 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3A341FC60B820E7F63DDD0CC80D471CA /* Resources */ = {
+		BC86FE2B3B6E516754C6AA1223F036F7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDF8120ACAC8CE787CB37E739B9F2FCC /* Resources */ = {
+		F46F2FF1C37519B335A17B6C0528C515 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -364,49 +365,81 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		22432EDDACAC877C3479EE8942CCECF0 /* Sources */ = {
+		0B3B5B119453F4F918B57720B295BAA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				025998BCC7F9CDAEFE85E06A42771714 /* Pods-DRSandboxManager_Tests-dummy.m in Sources */,
+				71B0BC76E47B51ACD6AB7D9B80F2C7A1 /* Pods-DRSandboxManager_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82C7AD7897C0D8110B94447AE6C647D6 /* Sources */ = {
+		370728BA9DE4F7A03BC824020F3F7C67 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9221A35ABE06BF54E7FC877D7A9F189F /* Pods-DRSandboxManager_Example-dummy.m in Sources */,
+				C081654F47524386162A5F6DEF2DA739 /* Pods-DRSandboxManager_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9E6747168E8190F3095D0C6473F7AD74 /* Sources */ = {
+		A00D3C446A7C37B7ACA02074DA1A61E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20F63E2437AD2455CAA1054CFDB7788C /* DRSandboxManager-dummy.m in Sources */,
-				16C1785A8D035D28D30284024E81B7FD /* DRSandBoxManager.m in Sources */,
+				4E483E3150E03949FF2D3C04B8C94BE8 /* DRSandboxManager-dummy.m in Sources */,
+				D91C1328861DBF379EA10BA742FC3242 /* DRSandBoxManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		63CE4617B26B2795240CA303FF48E2D8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-DRSandboxManager_Example";
-			target = 03B824650462105216F7E18C550AE561 /* Pods-DRSandboxManager_Example */;
-			targetProxy = C03DD92E49D8AAB1D9080D3BCA78A48E /* PBXContainerItemProxy */;
-		};
-		8B21DA82CA0FEA06AAD9F5E87B31720B /* PBXTargetDependency */ = {
+		9D4DC43E281DB9FCE70128CC4A888473 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DRSandboxManager;
 			target = DE9BA31CC8B6BDC6E726CE514EA3BB61 /* DRSandboxManager */;
-			targetProxy = D89D26EB77C0B35EBD68AB12412612AD /* PBXContainerItemProxy */;
+			targetProxy = 8992612010B5A747019A291D01B6E1FA /* PBXContainerItemProxy */;
+		};
+		AFB0D041E802142DD2A9F09A7AB009DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DRSandboxManager_Example";
+			target = 03B824650462105216F7E18C550AE561 /* Pods-DRSandboxManager_Example */;
+			targetProxy = D4841A0D9ED6C783C107959AD045EB72 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2DD7274228C27768C894586A86525EA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B129752ABB98EB0A615353D6A6542131 /* DRSandboxManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DRSandboxManager/DRSandboxManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DRSandboxManager/DRSandboxManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DRSandboxManager/DRSandboxManager.modulemap";
+				PRODUCT_MODULE_NAME = DRSandboxManager;
+				PRODUCT_NAME = DRSandboxManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -531,10 +564,11 @@
 			};
 			name = Debug;
 		};
-		88C29737E800BE8590C803E20EB55B0D /* Release */ = {
+		8357F66053DC46918D53D842508934EC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B129752ABB98EB0A615353D6A6542131 /* DRSandboxManager.xcconfig */;
+			baseConfigurationReference = FFAD035C85DC10F9F8BBC7547567F862 /* Pods-DRSandboxManager_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -544,57 +578,26 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DRSandboxManager/DRSandboxManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DRSandboxManager/DRSandboxManager-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-DRSandboxManager_Tests/Pods-DRSandboxManager_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DRSandboxManager/DRSandboxManager.modulemap";
-				PRODUCT_MODULE_NAME = DRSandboxManager;
-				PRODUCT_NAME = DRSandboxManager;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DRSandboxManager_Tests/Pods-DRSandboxManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8B15B54F1CFBE453FC6654C711C71251 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B129752ABB98EB0A615353D6A6542131 /* DRSandboxManager.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DRSandboxManager/DRSandboxManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DRSandboxManager/DRSandboxManager-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DRSandboxManager/DRSandboxManager.modulemap";
-				PRODUCT_MODULE_NAME = DRSandboxManager;
-				PRODUCT_NAME = DRSandboxManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		8FD3D5550370F16155F7DAB99A7A5676 /* Debug */ = {
+		9F488E414AD08027BCD8EA968800EEAC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0A7002DBC8AB9430E3E27589D1110939 /* Pods-DRSandboxManager_Example.debug.xcconfig */;
 			buildSettings = {
@@ -627,41 +630,7 @@
 			};
 			name = Debug;
 		};
-		EFF294EE4886593BFD24BEC8CE0D596B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 794ECC6DC826FD25C3E147993DD19503 /* Pods-DRSandboxManager_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DRSandboxManager_Example/Pods-DRSandboxManager_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DRSandboxManager_Example/Pods-DRSandboxManager_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FC0D83A832CF4267C30B32EEE771A2D5 /* Release */ = {
+		9FA23581CF9E3BD140DFFC45B017EA7B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5FF0E1F9DAFD0EE27F10F991D752C328 /* Pods-DRSandboxManager_Tests.release.xcconfig */;
 			buildSettings = {
@@ -695,9 +664,40 @@
 			};
 			name = Release;
 		};
-		FC9239C2BA3F331511835AC4D2418254 /* Debug */ = {
+		A8157A2E3AFC6A1F71F0C6AA081629EA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFAD035C85DC10F9F8BBC7547567F862 /* Pods-DRSandboxManager_Tests.debug.xcconfig */;
+			baseConfigurationReference = B129752ABB98EB0A615353D6A6542131 /* DRSandboxManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DRSandboxManager/DRSandboxManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DRSandboxManager/DRSandboxManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DRSandboxManager/DRSandboxManager.modulemap";
+				PRODUCT_MODULE_NAME = DRSandboxManager;
+				PRODUCT_NAME = DRSandboxManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F18C1211BEB378F4EB06E63E4F448B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 794ECC6DC826FD25C3E147993DD19503 /* Pods-DRSandboxManager_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -709,12 +709,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DRSandboxManager_Tests/Pods-DRSandboxManager_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-DRSandboxManager_Example/Pods-DRSandboxManager_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DRSandboxManager_Tests/Pods-DRSandboxManager_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-DRSandboxManager_Example/Pods-DRSandboxManager_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -723,32 +723,15 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3C7F0B13A7A8A0F6C555895CB168D839 /* Build configuration list for PBXNativeTarget "Pods-DRSandboxManager_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8FD3D5550370F16155F7DAB99A7A5676 /* Debug */,
-				EFF294EE4886593BFD24BEC8CE0D596B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		418878A9E2A15A1F2FB2BECCA70AF561 /* Build configuration list for PBXNativeTarget "DRSandboxManager" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8B15B54F1CFBE453FC6654C711C71251 /* Debug */,
-				88C29737E800BE8590C803E20EB55B0D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -758,11 +741,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73BA126107D65B037C1E6C9C0764B2E9 /* Build configuration list for PBXNativeTarget "Pods-DRSandboxManager_Tests" */ = {
+		4A2223F8245580910B2F07B75B446FCC /* Build configuration list for PBXNativeTarget "Pods-DRSandboxManager_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC9239C2BA3F331511835AC4D2418254 /* Debug */,
-				FC0D83A832CF4267C30B32EEE771A2D5 /* Release */,
+				9F488E414AD08027BCD8EA968800EEAC /* Debug */,
+				F18C1211BEB378F4EB06E63E4F448B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81616AA379D970093EB27886916B80DD /* Build configuration list for PBXNativeTarget "Pods-DRSandboxManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8357F66053DC46918D53D842508934EC /* Debug */,
+				9FA23581CF9E3BD140DFFC45B017EA7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9BC9E4E9720168021E9D60E7769D2DA /* Build configuration list for PBXNativeTarget "DRSandboxManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8157A2E3AFC6A1F71F0C6AA081629EA /* Debug */,
+				2DD7274228C27768C894586A86525EA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
