@@ -7,6 +7,7 @@
 //
 
 #import "DRViewController.h"
+#import <DRSandboxManager/DRSandBoxManager.h>
 
 @interface DRViewController ()
 
@@ -17,7 +18,22 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    [PHPhotoLibrary requestAuthorization:^(PHAuthorizationStatus status){
+        dispatch_async(dispatch_get_main_queue(), ^{
+            if (status == PHAuthorizationStatusAuthorized){
+                UIImage *image = [UIImage imageNamed:@"修改点"];
+                [DRSandBoxManager saveToSystemAlbumWithImage:image saveDoneBlock:^(BOOL success, NSError *error) {
+                    if (error) {
+                        NSLog(@"%@", error);
+                    }
+                }];
+            } else {
+                
+            }
+        });
+    }];
+    
 }
 
 - (void)didReceiveMemoryWarning

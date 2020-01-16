@@ -288,13 +288,14 @@
         PHAssetCollectionChangeRequest *collectionRequest;
         
         // 2.2 取出指定名称的相册
-        PHAssetCollection *assetCollection = [self getCurrentPhotoCollectionWithTitle:@"时光序"];
+        NSString *albumName = [[NSBundle mainBundle].infoDictionary valueForKey:@"CFBundleDisplayName"];
+        PHAssetCollection *assetCollection = [self getCurrentPhotoCollectionWithTitle:albumName];
         
         // 2.3 判断相册是否存在
         if (assetCollection) { // 如果存在就使用当前的相册创建相册请求
             collectionRequest = [PHAssetCollectionChangeRequest changeRequestForAssetCollection:assetCollection];
         } else { // 如果不存在, 就创建一个新的相册请求
-            collectionRequest = [PHAssetCollectionChangeRequest creationRequestForAssetCollectionWithTitle:@"时光序"];
+            collectionRequest = [PHAssetCollectionChangeRequest creationRequestForAssetCollectionWithTitle:albumName];
         }
         
         // 2.4 根据传入的相片, 创建相片变动请求

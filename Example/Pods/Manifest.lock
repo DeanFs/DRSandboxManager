@@ -1,5 +1,5 @@
 PODS:
-  - DRSandboxManager (0.1.5)
+  - DRSandboxManager (0.1.7)
 
 DEPENDENCIES:
   - DRSandboxManager (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DRSandboxManager: 846177c3253bda3cf82c730cda51fe492500d847
+  DRSandboxManager: d262357fc961419b20794e756117ace8bac260ee
 
 PODFILE CHECKSUM: c407f9b2e74a4800b6e628f583cc9d4a2f238d09
 

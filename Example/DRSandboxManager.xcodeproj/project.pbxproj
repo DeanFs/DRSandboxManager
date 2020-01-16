@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24F6D2DE23D08AFD0063DC5F /* 首页-优化方案.png in Resources */ = {isa = PBXBuildFile; fileRef = 24F6D2DD23D08AFD0063DC5F /* 首页-优化方案.png */; };
+		24F6D2E023D08D370063DC5F /* 修改点.png in Resources */ = {isa = PBXBuildFile; fileRef = 24F6D2DF23D08D370063DC5F /* 修改点.png */; };
 		4863569D3147350A371A6248 /* Pods_DRSandboxManager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E66904A4A9935B6A5F40443E /* Pods_DRSandboxManager_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24F6D2DD23D08AFD0063DC5F /* 首页-优化方案.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-优化方案.png"; sourceTree = "<group>"; };
+		24F6D2DF23D08D370063DC5F /* 修改点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "修改点.png"; sourceTree = "<group>"; };
 		48C987833EA4362B543DCC7E /* Pods-DRSandboxManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DRSandboxManager_Example.release.xcconfig"; path = "Target Support Files/Pods-DRSandboxManager_Example/Pods-DRSandboxManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DRSandboxManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DRSandboxManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -139,6 +143,8 @@
 				6003F5A6195388D20070C39A /* DRViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
+				24F6D2DD23D08AFD0063DC5F /* 首页-优化方案.png */,
+				24F6D2DF23D08D370063DC5F /* 修改点.png */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for DRSandboxManager";
@@ -280,7 +286,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24F6D2E023D08D370063DC5F /* 修改点.png in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				24F6D2DE23D08AFD0063DC5F /* 首页-优化方案.png in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
