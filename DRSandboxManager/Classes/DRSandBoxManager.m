@@ -339,7 +339,13 @@
         
         // 2.5 将占位对象添加到相册请求中
         [collectionRequest addAssets:@[placeholder]];
-    } completionHandler:saveDoneBlock];
+    } completionHandler:^(BOOL success, NSError * _Nullable error) {
+        if (saveDoneBlock != nil) {
+            dispatch_async(dispatch_get_main_queue(), ^{
+                saveDoneBlock(success, error);
+            });
+        }
+    }];
 }
 
 + (PHAssetCollection *)getCurrentPhotoCollectionWithTitle:(NSString *)collectionName {
